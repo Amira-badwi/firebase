@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+.container{
+background-color: rgb(255, 255, 255);
+height: 150px;
+border-radius: 25px;
+}
+.inputt{
+    outline: none;
+    border: none;
+    background-color:  rgb(197, 208, 216);
+    border-radius: 25px;
+    height: auto;
+    box-shadow: 1px 1px 20px rgb(83, 86, 87) inset;
+}
+.inputt:focus{
+    box-shadow: 1px 1px 10px   rgb(54, 179, 184) inset ;
+}
+tr{
+    background-color: rgb(253, 253, 253);
+    box-shadow: 1px 1px 5px   rgb(54, 179, 184) ;
+
+    
+    color: rgb(60, 161, 161);
+    
+
+} 
+td{
+    overflow: auto;
+}
+tr:hover{
+    background-color: rgb(176, 199, 199);
+    color: rgb(255, 255, 255);
+}
